@@ -3,10 +3,10 @@ package com.example.Twitter.service;
 import java.util.ArrayList;
 import java.util.Optional;
 
-import com.example.Twitter.DisplayUser;
-import com.example.Twitter.PostRepository;
-import com.example.Twitter.Users;
-import com.example.Twitter.UserRepository;
+import com.example.Twitter.DTO.DisplayUser;
+import com.example.Twitter.repo.PostRepository;
+import com.example.Twitter.models.Users;
+import com.example.Twitter.repo.UserRepository;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,11 +1,10 @@
 package com.example.Twitter.controller;
 
-import com.example.Twitter.Comment;
-import com.example.Twitter.DisplayJson;
+import com.example.Twitter.models.Comment;
+import com.example.Twitter.DTO.DisplayJson;
 import com.example.Twitter.service.CommentService;
 import com.example.Twitter.service.PostService;
 import com.example.Twitter.service.UserService;
-import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

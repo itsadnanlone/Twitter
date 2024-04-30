@@ -1,15 +1,12 @@
 package com.example.Twitter.controller;
-import com.example.Twitter.DisplayJson;
+import com.example.Twitter.DTO.DisplayJson;
 import com.example.Twitter.service.PostService;
 import com.example.Twitter.service.UserService;
-import com.example.Twitter.Users;
-import org.json.JSONException;
+import com.example.Twitter.models.Users;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.json.JSONObject;
 
 import java.util.List;
 

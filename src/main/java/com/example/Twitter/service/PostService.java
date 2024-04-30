@@ -1,10 +1,14 @@
 package com.example.Twitter.service;
 
-import com.example.Twitter.*;
-import com.example.Twitter.PostDTO;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.example.Twitter.DTO.CommentCreator;
+import com.example.Twitter.DTO.CommentDTO;
+import com.example.Twitter.DTO.DisplayJson;
+import com.example.Twitter.DTO.PostDTO;
+import com.example.Twitter.models.Comment;
+import com.example.Twitter.models.Post;
+import com.example.Twitter.models.Users;
+import com.example.Twitter.repo.PostRepository;
+import com.example.Twitter.repo.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
